@@ -37,3 +37,30 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+
+//additional
+//Stack is for primitive datatypes and heap is related to the non-primitive
+//It means in stack values are get copied but in heap reference has been given
+
+let myName = "Dev";
+let anotherName = myName;
+anotherName = "Yash";
+
+console.log(myName);
+console.log(anotherName);
+
+let obj1 = {
+    name : "Dev",
+    Id : 2015
+}
+let obj2 = obj1;
+obj2.name = "yash";
+
+//the name in both object will be changed here
+console.log(obj1.name);
+console.log(obj2.name)
