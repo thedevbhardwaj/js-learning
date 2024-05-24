@@ -1,14 +1,14 @@
-const name = "hitesh"
-const repoCount = 50
+const name = "dev"
+const repoCount = 12
 
 // console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('hitesh-hc-com')
+const gameName = new String('dev-bhardwaj-sharma')
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName.__proto__);//It will give a string overview
 
 
 // console.log(gameName.length);
@@ -16,10 +16,10 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4)//It goes only  upto lastIndex-1
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4)//It includes last index as well
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
