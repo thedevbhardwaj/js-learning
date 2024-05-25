@@ -23,7 +23,7 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
-// const obj3 = { obj1, obj2 }
+// const obj3 = { obj1, obj2 }//It will insert both object separately but not individual elements
 // const obj3 = Object.assign({}, obj1, obj2, obj4)//Here use of {} is not necessary but consider as a good practice as it tells that the return type will be object and variables are taken as source
 
 const obj3 = {...obj1, ...obj2}
@@ -63,11 +63,15 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course//object restructuring
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor);//Here no need to write course.instructor
 
+
+//Brief about api's
+//Random user me api   and  for understanding the code you can you json formatter
+//Json format is given below
 // {
 //     "name": "dev",
 //     "coursename": "js in hindi",
