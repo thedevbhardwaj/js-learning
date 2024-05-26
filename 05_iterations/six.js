@@ -1,7 +1,7 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
-// const values = coding.forEach( (item) => {
+// const values = coding.forEach( (item) => {//Will not be accessed by this method and if we try to print values then it will be undefined
 //     //console.log(item);
 //     return item
 // } )
