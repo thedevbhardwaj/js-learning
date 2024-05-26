@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)//It will throw as we are strong the value as well in a variable addTwo
+addTwo(5)//It will throw error as we are storing the value in a variable addTwo
 const addTwo = function(num){
     return num + 2
 }
