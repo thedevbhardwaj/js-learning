@@ -34,7 +34,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {//here we can access the object key value pair for this we have to use for in method
+// for (const [key, value] of myObject) {//here we can not access the object key value pair for this we have to use for in method
 //     console.log(key, ':-', value);
     
 // }
