@@ -28,7 +28,7 @@ const hundreds = 1000000
 // console.log(Math.max(4, 3, 6, 8));
 
 console.log(Math.random());//gives value between 0 to 1
-console.log((Math.random()*10) + 1); //we want to ensure that our value should not be less than 1 that's why 1 added so range will be 1 to 10
+console.log((Math.random()*10) + 1); //we want to ensure that our value should not be less than 1 that's why 1 added so range will be 1 to 11
 console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
