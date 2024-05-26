@@ -16,7 +16,7 @@ const user = {
 // console.log(this);//It will give null parenthesis
 
 // function chai(){
-//     let username = "hitesh"
+//     let username = "dev"
 // console.log(this);//Gives more data 
 //     console.log(this.username);//print username
 // }
@@ -24,7 +24,7 @@ const user = {
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "dev"
 //     console.log(this.username);
 // }
 
