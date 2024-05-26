@@ -23,9 +23,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "dev@newacccount.com"
 // Object.freeze(JsUser)//object is freeze here and it can not be changed now onwards(will not give any error if we try to change)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "dev@microsoft.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){
